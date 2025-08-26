@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/PRADOS/public/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>PRADOS résidences boutique</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+        <a href="/" class="logo">
+            <img src="/PRADOS/public/images/logo.jpg" alt="PRADOS Logo" />
+        </a>
+        <nav class="nav-links">
+            <a href="#gallery-section">Galería</a>
+            <a href="#residence-menu">Residencias</a>
+            <a href="#contact-section">Contáctanos</a>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <!-- Swiper solo para las imágenes de fondo -->
+            <div class="swiper hero-swiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url('/PRADOS/public/images/vista_exterior-1.jpg');"></div>
+                <div class="swiper-slide" style="background-image: url('/PRADOS/public/images/vista_exterior-2.jpg');"></div>
+                <div class="swiper-slide" style="background-image: url('/PRADOS/public/images/vista_exterior-3.jpg');"></div>
+                </div>
+            </div>
+
+            <!-- Capa oscura y contenido fijo -->
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <div class="logo-placeholder">
+                <img src="/PRADOS/public/images/logo.jpg" alt="PRADOS logo">
+                </div>
+                <div class="hero-description">
+                <p>En la dinámica zona con mayor crecimiento residencial del sur de la ciudad, dentro del entorno exclusivo de Residenciales Prados de Monte María, nace <em>PRADOS résidences boutique</em>. Un refugio íntimo compuesto por solo tres hogares exclusivos, pensados para familias que sueñan con un espacio que respire amplitud, calidez y autenticidad.</p>
+                </div>
+                <div class="hero-button">
+                    
+                <a href="#contact-section"><button>Cotiza</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-section" id="info-section-1">
+            <div class="info-container">
+                <div class="info-image">
+                    <img src="/PRADOS/public/images/vista_interior-7.jpg" alt="Vista desde sala hacia vestíbulo">
+                </div>
+
+                <div class="info-text">
+                    <p><strong>Pensado para familias jóvenes de 4 a 6 integrantes, <em>PRADOS résidences boutique</em> ofrece ambientes generosos, altos y confortables donde se respira libertad. Su arquitectura no solo destaca por su forma, sino por su intención: crear experiencias duraderas en cada rincón.</strong></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-section reverse" id="info-section-2" style="background-color: var(--dark-color); color: var(--light-color);">
+            <div class="info-container">
+                <div class="info-image">
+                    <img src="/PRADOS/public/images/vista_interior-6.jpg" alt="Vista cuarto principal">
+                </div>
+                <div class="info-text">
+                    <p><strong>Más allá de lo visible, cada vivienda está equipada con instalaciones modernas y versátiles que anticipan tus necesidades, desde energía limpia y seguridad inteligente hasta comodidades que hacen tu vida más fácil y conectada. Es un hogar donde puedes imaginar tardes tranquilas con música ambiental en las áreas sociales, la comodidad de encender tu aire acondicionado sin complicaciones, o cargar tu vehículo eléctrico desde el estacionamiento, sabiendo que tu hogar está preparado para el presente y el futuro.</strong></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="residences-carousel" id="gallery-section">
+            <div class="swiper residences-swiper">
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_exterior-1.jpg" alt="Residencia 1" /></div>
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_exterior-2.jpg" alt="Residencia 2" /></div>
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_exterior-3.jpg" alt="Residencia 3" /></div>
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_interior-1.jpg" alt="Vista desde comedor" /></div>
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_interior-2.jpg" alt="Vista desde sala" /></div>
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_interior-3.jpg" alt="Sala familiar" /></div>
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_interior-4.jpg" alt="Dormitorio Principal" /></div>
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_interior-5.jpg" alt="Dormitorio Secundario" /></div>
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_interior-8.jpg" alt="Vista desde cocina" /></div>
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_interior-9.jpg" alt="Terraza" /></div>
+                </div>
+
+                <!-- Flechas -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <!-- Swiper Mobile -->
+            <div class="swiper mobile-gallery">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_exterior-1.jpg" alt="Residencia 1" /></div>
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_exterior-2.jpg" alt="Residencia 2" /></div>
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_exterior-3.jpg" alt="Residencia 3" /></div>
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_interior-1.jpg" alt="Vista desde comedor" /></div>
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_interior-2.jpg" alt="Vista desde sala" /></div>
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_interior-3.jpg" alt="Sala familiar" /></div>
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_interior-4.jpg" alt="Dormitorio Principal" /></div>
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_interior-5.jpg" alt="Dormitorio Secundario" /></div>
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_interior-8.jpg" alt="Vista desde cocina" /></div>
+                    <div class="swiper-slide"><img src="/PRADOS/public/images/vista_interior-9.jpg" alt="Terraza" /></div>
+                    <!-- ... -->
+                </div>
+                <!-- Paginación y flechas -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="residences-caption">
+                <p><strong><em>PRADOS résidences boutique</em> es más que una dirección: es el punto de partida para tus nuevos comienzos, un espacio donde cada día refleja tus aspiraciones y valores. Porque el verdadero lujo está en vivir rodeado de lo que realmente importa. El hogar donde todo cobra sentido.</strong></p>
+            </div>
+        </section>
+
+        <section id="residence-menu">
+            <div class="menu-panel">
+                <!-- Fila 1: Selector de residencia -->
+                <div class="residence-tabs">
+                    <button class="residence-tab active" data-residence="r1">Residencia 1 / 224.47 m²</button>
+                    <button class="residence-tab" data-residence="r2">Residencia 2 / 240.78 m²</button>
+                    <button class="residence-tab" data-residence="r3">Residencia 3 / 232.44 m²</button>
+                </div>
+
+                <!-- Fila 2: Selector de nivel -->
+                <div class="level-tabs" data-residence="r1">
+                    <button class="level-tab active" data-level="r1-n1">Nivel 1</button>
+                    <button class="level-tab" data-level="r1-n2">Nivel 2</button>
+                </div>
+
+                <div class="level-tabs hidden" data-residence="r2">
+                    <button class="level-tab active" data-level="r2-n1">Nivel 1</button>
+                    <button class="level-tab" data-level="r2-n2">Nivel 2</button>
+                    <button class="level-tab" data-level="r2-n3">Nivel 3</button>
+                </div>
+
+                <div class="level-tabs hidden" data-residence="r3">
+                    <button class="level-tab active" data-level="r3-n1">Nivel 1</button>
+                    <button class="level-tab" data-level="r3-n2">Nivel 2</button>
+                    <button class="level-tab" data-level="r3-n3">Nivel 3</button>
+                </div>
+
+                <!-- Contenido: Amenidades + imagen -->
+                <div class="menu-content">
+                    <div class="amenities" id="r1-n1" data-level-content>
+                        <table class="area-table">
+                            <tbody>
+                                <tr>
+                                <td>Garage 2 Automóviles</td>
+                                <td>33.62 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Depósito de Basura</td>
+                                <td>1.63 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Gabinete Cilindro de Gas</td>
+                                <td>0.71 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Bodega</td>
+                                <td>3.75 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Dormitorio de Servicio</td>
+                                <td>6.80 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Baño de Servicio</td>
+                                <td>3.52 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Jardín</td>
+                                <td>10.95 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Ingreso Peatonal</td>
+                                <td>3.50 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Vestíbulo</td>
+                                <td>5.01 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Baño de Visitas</td>
+                                <td>2.46 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Sala</td>
+                                <td>17.08 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Comedor</td>
+                                <td>14.15 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Cocina</td>
+                                <td>9.37 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Deck Área Social</td>
+                                <td>11.72 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Lavandería</td>
+                                <td>6.36 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Gradas</td>
+                                <td>6.95 m²</td>
+                                </tr>
+                                <tr>
+                                <td><strong>Total:</strong></td>
+                                <td><strong>137.58 m²</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="amenities hidden" id="r1-n2" data-level-content>
+                        <table class="area-table">
+                            <tbody>
+                                <tr>
+                                <td>Vestíbulo + Circulaciones</td>
+                                <td>5.95 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Sala Familiar</td>
+                                <td>20.32 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Dormitorio 1</td>
+                                <td>16.08 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Dormitorio 2</td>
+                                <td>15.02 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Baño Compartido</td>
+                                <td>6.36 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Dormitorio Principal</td>
+                                <td>24.57 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Walking Closet</td>
+                                <td>7.31 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Baño</td>
+                                <td>5.32 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Deck</td>
+                                <td>9.92 m²</td>
+                                </tr>
+                                <tr>
+                                <td><strong>Total:</strong></td>
+                                <td><strong>110.86 m²</strong></td>
+                                </tr>
+                                <tr>
+                                <td><strong>Área Adicional</strong></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <td>Pérgola + Jacuzzi</td>
+                                <td>6.74 m²</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="amenities hidden" id="r2-n1" data-level-content>
+                        <table class="area-table">
+                            <tbody>
+                                <tr>
+                                <td>Garage 2 Automóviles</td>
+                                <td>40.07 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Depósito de Basura</td>
+                                <td>1.64 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Gabinete Cilíndro de Gas</td>
+                                <td>0.67 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Bodega</td>
+                                <td>1.57 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Jardinera</td>
+                                <td>2.50 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Lavandería</td>
+                                <td>2.94 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Dormitorio de Servicio</td>
+                                <td>4.72 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Baño de Servicio</td>
+                                <td>2.50 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Ingreso Peatonal</td>
+                                <td>7.53 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Vestíbulo</td>
+                                <td>5.76 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Baño de Visitas</td>
+                                <td>2.36 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Sala</td>
+                                <td>18.74 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Comedor</td>
+                                <td>17.04 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Cocina + Desayunador</td>
+                                <td>13.86 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Jardín</td>
+                                <td>13.23 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Gradas</td>
+                                <td>3.71 m²</td>
+                                </tr>
+                                <tr>
+                                <td><strong>Total:</strong></td>
+                                <td><strong>138.56 m²</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="amenities hidden" id="r2-n2" data-level-content>
+                        <table class="area-table">
+                            <tbody>
+                                <tr>
+                                <td>Vestíbulo + Circulaciones</td>
+                                <td>10.39 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Sala Familiar</td>
+                                <td>10.95 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Dormitorio 1</td>
+                                <td>14.18 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Dormitorio 2</td>
+                                <td>17.02 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Baño Compartido</td>
+                                <td>5.64 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Dormitorio Principal</td>
+                                <td>21.50 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Walking Closet</td>
+                                <td>3.88 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Baño</td>
+                                <td>4.93 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Deck</td>
+                                <td>5.22 m²</td>
+                                </tr>
+                                <tr>
+                                <td><strong>Total:</strong></td>
+                                <td><strong>93.72 m²</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="amenities hidden" id="r2-n3" data-level-content>
+                        <table class="area-table">
+                            <tbody>
+                                <tr>
+                                <td>Gradas + Vestíbulo</td>
+                                <td>9.85 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Bodega</td>
+                                <td>1.96 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Terraza</td>
+                                <td>58.34 m²</td>
+                                </tr>
+                                <tr>
+                                <td><strong>Total:</strong></td>
+                                <td><strong>70.15 m²</strong></td>
+                                </tr>
+                                <tr>
+                                <td><strong>Área Adicional</strong></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <td>Pérgola + Cocineta</td>
+                                <td>16.01 m²</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="amenities hidden" id="r3-n1" data-level-content>
+                        <table class="area-table">
+                            <tbody>
+                                <tr>
+                                <td>Garage 2 Automóviles</td>
+                                <td>36.78 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Depósito de Basura</td>
+                                <td>1.64 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Gabinete Cilíndro de Gas</td>
+                                <td>0.71 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Jardinera</td>
+                                <td>2.63 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Bodega</td>
+                                <td>1.02 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Lavandería</td>
+                                <td>4.30 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Baño de Servicio</td>
+                                <td>2.63 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Ingreso Peatonal</td>
+                                <td>7.33 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Vestíbulo</td>
+                                <td>3.87 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Baño de Visitas</td>
+                                <td>2.36 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Sala</td>
+                                <td>18.47 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Comedor</td>
+                                <td>17.26 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Cocina + Desayunador</td>
+                                <td>14.04 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Jardín</td>
+                                <td>13.23 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Gradas</td>
+                                <td>3.71 m²</td>
+                                </tr>
+                                <tr>
+                                <td><strong>Total:</strong></td>
+                                <td><strong>129.98 m²</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="amenities hidden" id="r3-n2" data-level-content>
+                        <table class="area-table">
+                            <tbody>
+                                <tr>
+                                <td>Vestíbulo + Circulaciones</td>
+                                <td>10.39 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Sala Familiar</td>
+                                <td>11.13 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Dormitorio 1</td>
+                                <td>14.18 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Dormitorio 2</td>
+                                <td>17.02 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Baño Compartido</td>
+                                <td>5.64 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Dormitorio Principal</td>
+                                <td>21.50 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Walking Closet</td>
+                                <td>3.88 m²</td>
+                                </tr>
+                                <tr>             
+                                <td>Baño</td>
+                                <td>5.09 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Deck</td>
+                                <td>5.22 m²</td>
+                                </tr>
+                                <tr>
+                                <td><strong>Total:</strong></td>
+                                <td><strong>94.06 m²</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="amenities hidden" id="r3-n3" data-level-content>
+                        <table class="area-table">
+                            <tbody>
+                                <tr>
+                                <td>Gradas + Vestíbulo</td>
+                                <td>9.85 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Bodega</td>
+                                <td>1.96 m²</td>
+                                </tr>
+                                <tr>
+                                <td>Terraza</td>
+                                <td>58.90 m²</td>
+                                </tr>
+                                <tr>
+                                <td><strong>Total:</strong></td>
+                                <td><strong>70.71 m²</strong></td>
+                                </tr>
+                                <tr>
+                                <td><strong>Área Adicional</strong></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <td>Pérgola + Cocineta</td>
+                                <td>16.01 m²</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="level-image">
+                        <img id="level-image-display" src="/PRADOS/public/images/r1-n1.jpg" alt="Nivel actual">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-section">
+            <div class="contact-container">
+        
+                <!-- Mapa + Botones debajo -->
+                <div class="map-wrapper">
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3901.7763569498684!2d-90.559802!3d14.567601!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a1001c373925%3A0x22cf224f2c1cc8e!2sPRADOS%20r%C3%A9sidences%20boutique!5e1!3m2!1ses!2sgt!4v1752037822612!5m2!1ses!2sgt"
+                        allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <!-- Contenedor de botones -->
+                    <div class="map-buttons">
+                        <a href="https://ul.waze.com/ul?place=ChIJJTk3HAChiYURjszB8iTyLAI&ll=14.56760100%2C-90.55980230&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
+                        target="_blank" class="waze-link">
+                        <i class="fa-brands fa-waze"></i> Ir con Waze
+                        </a>
+
+                        <a href="https://www.instagram.com/prados_residences_boutique/"
+                        target="_blank" class="waze-link">
+                        <i class="fa-brands fa-instagram"></i> Síguenos en Instagram
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Formulario -->
+                <div class="form-container">
+                <h3>Solicita más información</h3>
+                <form id="info-form" method="POST" action="/contact">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label form="phone">Teléfono</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="/PRADOS/public/scripts/hero-swiper.js"></script>
+    <script src="/PRADOS/public/scripts/residences-swiper.js"></script>
+    <script src="/PRADOS/public/scripts/mobile-swiper.js"></script>
+    <script src="/PRADOS/public/scripts/menu-script.js"></script>
+    <script src="/PRADOS/public/scripts/form-handler.js"></script>
+
+</body>
+</html>
